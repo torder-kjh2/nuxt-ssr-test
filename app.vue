@@ -17,6 +17,17 @@
 
 import Sample from './components/Sample.vue'
 
+const title = ref('My App')
+const description = ref('My App Description')
+
+useHead({
+  title,
+  meta: [{
+    name: 'description',
+    content: description
+  }]
+})
+
 const count = ref(1);
 
 const double = computed(()=>count.value*2);
