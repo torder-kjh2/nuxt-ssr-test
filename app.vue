@@ -25,11 +25,10 @@ useHead({
   meta: [{
     name: 'description',
     content: description,
-  },
-  {
-    name: 'lang',
-    content: 'ko',
   }],
+  htmlAttrs:{
+    lang:'ko'
+  }
 })
 
 const count = ref(1);
