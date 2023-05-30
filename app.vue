@@ -10,6 +10,7 @@
   </button>
   <Sample v-if="flag"/>
   <button @click="()=>{flag = !flag}">쇼미 컴포넌트</button>
+  
 </template>
 
 <script lang="ts" setup>
