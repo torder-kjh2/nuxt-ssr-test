@@ -24,8 +24,12 @@ useHead({
   title,
   meta: [{
     name: 'description',
-    content: description
-  }]
+    content: description,
+  },
+  {
+    name: 'lang',
+    content: 'ko',
+  }],
 })
 
 const count = ref(1);
