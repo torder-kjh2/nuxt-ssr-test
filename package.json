@@ -6,10 +6,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview"
   },
-  "devDependencies": {
-    "nuxt": "3.0.0-rc.6"
-  },
   "dependencies": {
-    "@vercel/analytics": "^1.0.1"
+    "@vercel/analytics": "^1.0.1",
+    "nuxt": "^3.0.0-rc.6"
   }
 }
